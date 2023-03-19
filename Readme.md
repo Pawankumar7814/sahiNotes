@@ -39,25 +39,25 @@ req - otp
 7. /users/auth/password_update
 req - new password, confirm password
 
-8. /users/notes/upload
+8. /notes/upload
 req - name, about, file
 
-9. /users/likes/like/?note_id=note_id
+9. /notes/likes/like/?note_id=note_id
 req - name, about,  comments, likes, file, author name
 
-10. /users/likes/like/?note_id = note_id
+10. /notes/likes/like/?note_id = note_id
 
-11. /users/likes/unlike/?note_id = note_id
+11. /notes/likes/unlike/?note_id = note_id
 
-12. /users/comments/add_comment/?note_id = note_id&type=notes
+12. /notes/comments/add_comment/?note_id = note_id&type=notes
 
-13. /users/comments/add_comment/?comment_id = cooment_id&type = comments
+13. /notes/comments/add_comment/?comment_id = cooment_id&type = comments
 
 14. /users/emails/new_signup/?email=email
 
 15. /users/auth/logout
 
-16. /users/notes/preview/?note_id=note_id
+16. /notes/preview/?note_id=note_id
 
 ## Models
 
